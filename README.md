@@ -46,11 +46,11 @@ The data used is synthetic and created for the purpose of this cohort analysis.
 ## Results
 
 - **Descriptive Statistics**: 
-    - Cohort 1: Mean survival = 24 months (SD = 5.5).
-    - Cohort 2: Mean survival = 23.5 months (SD = 6.0).
+    - Cohort 1: Mean survival = 37.23 months (SD = 16.5).
+    - Cohort 2: Mean survival = 37.7 months (SD = 16.85).
   
 - **Statistical Test**: 
-    - The t-test revealed no significant difference in survival months between Cohort 1 and Cohort 2 (p > 0.05).
+    - The t-test revealed no significant difference in survival months between Cohort 1 and Cohort 2 (p > 0.05). 
 
 - **Visualizations**:
     - Survival distributions for both cohorts were plotted, though missing data impacted some visualizations.
