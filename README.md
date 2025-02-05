@@ -30,7 +30,7 @@ The data used is synthetic and created for the purpose of this cohort analysis.
 ## Methodology
 
 1. **Data Preprocessing**:
-    - Missing values in key columns (e.g., height, weight) were imputed using the mean.
+    - Missing values in key columns (e.g., height, weight) were imputed using the median.
     - Survival months were calculated by taking the difference between diagnosis and death dates and rounding to the nearest whole month.
 
 2. **Cohort Creation**:
@@ -50,14 +50,14 @@ The data used is synthetic and created for the purpose of this cohort analysis.
     - Cohort 2: Mean survival = 37.7 months (SD = 16.85).
   
 - **Statistical Test**: 
-    - The t-test revealed no significant difference in survival months between Cohort 1 and Cohort 2 (p > 0.05). 
+    - The t-test revealed significant difference in survival months between Cohort 1 and Cohort 2, p-value = 0.02, as to reject the null hypothesis i.e. no significant difference p-value should be greater than 0.05 (p > 0.05). 
 
 - **Visualizations**:
     - Survival distributions for both cohorts were plotted, though missing data impacted some visualizations.
 
 ## Discussion
 
-The analysis found no statistically significant difference in survival between the two cohorts based on the synthetic data. This suggests that, within the context of this dataset, the transition between FEC → DOCETAXEL and CYCLOPHOSPHAMIDE + EPIRUBICIN + FLUOROURACIL → TRASTUZUMAB does not significantly influence survival. However, further research with real-world data may yield different findings.
+The analysis found statistically significant difference in survival between the two cohorts based on the synthetic data. This suggests that, within the context of this dataset, the transition between FEC → DOCETAXEL and CYCLOPHOSPHAMIDE + EPIRUBICIN + FLUOROURACIL → TRASTUZUMAB does significantly influence survival. However, further research with real-world data may yield different findings.
 
 ### Justifications
 
